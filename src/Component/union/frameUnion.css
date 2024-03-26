@@ -51,8 +51,15 @@
 }
 @media (max-width: 1000px) {
     .vertical-width-adjustment {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .center-elements {
+        padding-right: 50px;
+        padding-left: 50px;
     }
 }
 .skill-tag {
