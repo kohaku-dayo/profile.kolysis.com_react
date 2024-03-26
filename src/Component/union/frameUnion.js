@@ -35,7 +35,7 @@ export function HoverLightContainer(props) {
 }
 export function VerticalWidthAdjustment(props) {
     return (
-        <div style={{ "margin-left": "30px", "margin-right": "30px" }}>
+        <div className="vertical-width-adjustment">
             {props.children}
         </div>
     );

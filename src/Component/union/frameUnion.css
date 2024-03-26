@@ -1,9 +1,15 @@
 .center-elements {
     width: 100%;
     height: 100%;
-    padding-right: 15vw;
-    padding-left: 15vw;
+    padding-right: 200px;
+    padding-left: 200px;
     box-sizing: border-box;
+}
+@media (max-width: 1000px) {
+    .center-elements {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
 }
 .center-elements-child{
     width: 100%;
@@ -39,10 +45,14 @@
     background: hsl(212, 100%, 99%, 0.03);
     cursor: pointer;
 }
+.vertical-width-adjustment{
+    margin-left: 30px;
+    margin-right: 30px;
+}
 @media (max-width: 1000px) {
-    .half-width-vertical-width-adjustment {
-        margin-left: 30px;
-        margin-right: 30px;
+    .vertical-width-adjustment {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 .skill-tag {
