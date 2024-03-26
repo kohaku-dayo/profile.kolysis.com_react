@@ -7,7 +7,8 @@ export function KofiPopup() {
                 <div className="kofi-icon">
                     <img src='https://storage.ko-fi.com/cdn/brandasset/kofi_s_logo_nolabel.png' alt="" style={{ width: "100%", height: "100%" }}></img>
                 </div>
-                <p className="kofi-popup-description">Ko-fiでこはくをサポート</p>
+                <p className="kofi-popup-description-kofiname">Ko-fiで</p>
+                <p className="kofi-popup-description">こはくをサポート</p>
             </div>
         </Link>
     );
