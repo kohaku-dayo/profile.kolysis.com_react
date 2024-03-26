@@ -10,12 +10,14 @@ import { Link } from 'react-router-dom';
 import { IronmanBackground } from "../Component/union/imageBackground";
 import { RaderChart } from '../Component/parts/reactchart';
 import { TitlePlate } from "../Component/union/sizingUnion";
+import { KofiPopup } from "../Component/union/patronPopup";
 
 export function HomePage() {
     return (
         <>
             <SnowFall />
             <IronmanBackground />
+            <KofiPopup />
             <CenterElements>
                 <div style={{ flex: 2.2 }}>
                     <HalfWidthVerticalWidthAdjustment>
@@ -124,7 +126,7 @@ export function HomePage() {
                                         <SkillTag title="WSUS"/>
                                         <SkillTag title="SmartSESAME"/>
                                         <SkillTag title="SkyseaClientView"/>
-                                        <SkillTag title="Blender"/>
+                                        <SkillTag title="Blender" />
                                     </div>
                                 </TitlePlate>
                             </HoverLightContainer>

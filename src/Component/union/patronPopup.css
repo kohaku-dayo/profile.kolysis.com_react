@@ -1,0 +1,35 @@
+.kofi-popup {
+    all:unset;
+    position: fixed;
+    right: 0px;
+    bottom: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top: 1px solid hsl(212, 100%, 85%, 0.3);
+    background: hsl(212, 100%, 85%, 0.1);
+    z-index: 999;
+}
+.kofi-popup:hover {
+    cursor: pointer;
+}
+.kofi-popup-inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.kofi-icon{
+    width: 50px;
+    height: 50px;
+}
+.kofi-popup-description {
+    all: unset;
+    color: var(--white1);
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0;
+}
