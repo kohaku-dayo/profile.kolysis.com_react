@@ -1,0 +1,25 @@
+.ironman-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -999;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+@media (max-width:1000px) {
+    .ironman-background img {
+        position: absolute;
+        top: 0;
+        left: -100%;
+    }
+}
+.ironman-background-filter {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -998;
+    top: 0;
+    left: 0;
+    background: hsl(195.32deg 100% 21.92% / 44%);
+}

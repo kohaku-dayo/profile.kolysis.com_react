@@ -1,0 +1,14 @@
+.title-plate-title {
+    color: var(--white1);
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.title-plate-sub-title{
+    color: var(--white5);
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px;
+}

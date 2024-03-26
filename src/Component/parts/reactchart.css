@@ -1,0 +1,9 @@
+.radar-chart{
+    display: flex;
+    justify-content: center;
+}
+.radar-chart-inner {
+    width: 450px;
+    height: 350px;
+    position: relative;
+}

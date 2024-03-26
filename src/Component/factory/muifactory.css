@@ -1,0 +1,13 @@
+.mui-wrapper {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.mui-wrapper svg{
+    width: 100%;
+    height: 100%;
+    fill: var(--white7);
+}
+.mui-wrapper svg:hover{
+    fill: var(--white1);
+}
