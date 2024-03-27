@@ -9,7 +9,7 @@
 }
 @media (max-width:1000px) {
     .ironman-background img {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: -100%;
     }

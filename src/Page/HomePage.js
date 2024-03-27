@@ -1,6 +1,16 @@
 import * as React from "react";
 import { SnowFall } from "../Component/union/particleBackground";
-import { CenterElements, HalfWidthVerticalWidthAdjustment, HoverLightContainer, SkillTag, VerticalContainer, VerticalScrollContainer, VerticalWidthAdjustment } from "../Component/union/frameUnion";
+
+import {
+    CenterElements,
+    HalfWidthVerticalWidthAdjustment,
+    HoverLightContainer,
+    SkillTag,
+    VerticalContainer,
+    VerticalScrollContainer,
+    VerticalWidthAdjustment
+} from "../Component/union/frameUnion";
+
 import { VerticalBigSpace } from "../Component/parts/emptySpace";
 import './HomePage.css';
 import { MuiWrapper } from "../Component/factory/muifactory";
